@@ -3,6 +3,7 @@
 * Count processors:
   * `cat /proc/cpuinfo | grep processor`
   * `nproc`
+* List users + disk usage: `du -khs * | sort -hr`
 * Tidy/Neatify an XML file
   ```bash
   sudo apt install tidy
