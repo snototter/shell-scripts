@@ -9,6 +9,7 @@
   sudo apt install tidy
   cat ugly.xml  | tidy -utf8 -xml -w 255 -i -c -q -asxml > pretty.xml
   ```
+* TODO locate where env variables came from: https://unix.stackexchange.com/questions/813/how-to-determine-where-an-environment-variable-came-from
 * TODO move to ../pdf  # 2 page PDF
   pdfnup --nup 2x1 input.pdf
 *  # Rotate PDF
